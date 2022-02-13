@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PacMax.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{99595C05-8ECD-420E-A6B1-4A413A6E952B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PacMax.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PacMaxEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B8B81794-7795-4388-A60A-55E41FC046AF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PacMax">
+      <UniqueIdentifier>{BB85DA88-9037-4347-BDE7-D5B90753116E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PacMax\PacMax.Build.cs">
+      <Filter>Source\PacMax</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PacMax\PacMax.cpp">
+      <Filter>Source\PacMax</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PacMax\PacMax.h">
+      <Filter>Source\PacMax</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PacMax\PacMaxGameModeBase.cpp">
+      <Filter>Source\PacMax</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PacMax\PacMaxGameModeBase.h">
+      <Filter>Source\PacMax</Filter>
+    </ClInclude>
+    <Filter Include="Source\PacMax\Pawns">
+      <UniqueIdentifier>{B5B5CE05-5F3C-464A-95FA-11FB5C6EDA3C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PacMax\Pawns\Base_Pac.cpp">
+      <Filter>Source\PacMax\Pawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PacMax\Pawns\Base_Pac.h">
+      <Filter>Source\PacMax\Pawns</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PacMax\Pawns\Player_Pac.cpp">
+      <Filter>Source\PacMax\Pawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PacMax\Pawns\Player_Pac.h">
+      <Filter>Source\PacMax\Pawns</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

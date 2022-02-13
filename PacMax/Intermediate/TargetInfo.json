@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PacMax",
+			"Path": "C:\\Users\\Canyon\\Desktop\\Unreal Engine Projects\\Unreal Projects\\PacMax\\PacMax\\Source\\PacMax.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PacMaxEditor",
+			"Path": "C:\\Users\\Canyon\\Desktop\\Unreal Engine Projects\\Unreal Projects\\PacMax\\PacMax\\Source\\PacMaxEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

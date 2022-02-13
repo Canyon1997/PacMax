@@ -1,0 +1,2 @@
+C:\Users\Canyon\Desktop\Unreal Engine Projects\Unreal Projects\PacMax\PacMax\Intermediate\Build\Win64\UE4Editor\Development\PacMax\Definitions.PacMax.h
+C:\Users\Canyon\Desktop\Unreal Engine Projects\Unreal Projects\PacMax\PacMax\Source\PacMax\PacMax.h

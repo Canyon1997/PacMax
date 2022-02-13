@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Canyon\\Desktop\\Unreal Engine Projects\\Unreal Projects\\PacMax\\PacMax\\Source\\PacMax\\PacMax.Build.cs",
+		"C:\\Users\\Canyon\\Desktop\\Unreal Engine Projects\\Unreal Projects\\PacMax\\PacMax\\Source\\PacMax.Target.cs",
+		"C:\\Users\\Canyon\\Desktop\\Unreal Engine Projects\\Unreal Projects\\PacMax\\PacMax\\Source\\PacMaxEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

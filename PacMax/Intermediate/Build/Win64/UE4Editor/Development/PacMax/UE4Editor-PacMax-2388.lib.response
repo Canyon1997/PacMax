@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PacMax-2388.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Canyon\Desktop\Unreal Engine Projects\Unreal Projects\PacMax\PacMax\Intermediate\Build\Win64\PacMaxEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Canyon\Desktop\Unreal Engine Projects\Unreal Projects\PacMax\PacMax\Intermediate\Build\Win64\UE4Editor\Development\PacMax\Base_Pac.cpp.obj"
+"C:\Users\Canyon\Desktop\Unreal Engine Projects\Unreal Projects\PacMax\PacMax\Intermediate\Build\Win64\UE4Editor\Development\PacMax\PacMax.cpp.obj"
+"C:\Users\Canyon\Desktop\Unreal Engine Projects\Unreal Projects\PacMax\PacMax\Intermediate\Build\Win64\UE4Editor\Development\PacMax\PacMaxGameModeBase.cpp.obj"
+"C:\Users\Canyon\Desktop\Unreal Engine Projects\Unreal Projects\PacMax\PacMax\Intermediate\Build\Win64\UE4Editor\Development\PacMax\Base_Pac.gen.cpp.obj"
+"C:\Users\Canyon\Desktop\Unreal Engine Projects\Unreal Projects\PacMax\PacMax\Intermediate\Build\Win64\UE4Editor\Development\PacMax\PacMax.init.gen.cpp.obj"
+"C:\Users\Canyon\Desktop\Unreal Engine Projects\Unreal Projects\PacMax\PacMax\Intermediate\Build\Win64\UE4Editor\Development\PacMax\PacMaxGameModeBase.gen.cpp.obj"
+"C:\Users\Canyon\Desktop\Unreal Engine Projects\Unreal Projects\PacMax\PacMax\Intermediate\Build\Win64\UE4Editor\Development\PacMax\Default.rc2.res"
+/OUT:"C:\Users\Canyon\Desktop\Unreal Engine Projects\Unreal Projects\PacMax\PacMax\Intermediate\Build\Win64\UE4Editor\Development\PacMax\UE4Editor-PacMax-2388.lib"
+/INCLUDE:IMPLEMENT_MODULE_PacMax
