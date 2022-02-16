@@ -34,10 +34,6 @@ void EmptyLinkFunctionForGeneratedCodeBase_Pac() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoveSpeed_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MoveSpeed;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseMesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BaseMesh;
@@ -45,6 +41,10 @@ void EmptyLinkFunctionForGeneratedCodeBase_Pac() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CapsuleComp_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CapsuleComp;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoveSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MoveSpeed;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -61,13 +61,6 @@ void EmptyLinkFunctionForGeneratedCodeBase_Pac() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Pac_Statics::NewProp_MoveSpeed_MetaData[] = {
-		{ "Category", "Base_Pac" },
-		{ "ModuleRelativePath", "Pawns/Base_Pac.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABase_Pac_Statics::NewProp_MoveSpeed = { "MoveSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABase_Pac, MoveSpeed), METADATA_PARAMS(Z_Construct_UClass_ABase_Pac_Statics::NewProp_MoveSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Pac_Statics::NewProp_MoveSpeed_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Pac_Statics::NewProp_BaseMesh_MetaData[] = {
 		{ "Category", "Base_Pac" },
 		{ "EditInline", "true" },
@@ -83,10 +76,17 @@ void EmptyLinkFunctionForGeneratedCodeBase_Pac() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase_Pac_Statics::NewProp_CapsuleComp = { "CapsuleComp", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABase_Pac, CapsuleComp), Z_Construct_UClass_UCapsuleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase_Pac_Statics::NewProp_CapsuleComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Pac_Statics::NewProp_CapsuleComp_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Pac_Statics::NewProp_MoveSpeed_MetaData[] = {
+		{ "Category", "Base_Pac" },
+		{ "ModuleRelativePath", "Pawns/Base_Pac.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABase_Pac_Statics::NewProp_MoveSpeed = { "MoveSpeed", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABase_Pac, MoveSpeed), METADATA_PARAMS(Z_Construct_UClass_ABase_Pac_Statics::NewProp_MoveSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Pac_Statics::NewProp_MoveSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABase_Pac_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Pac_Statics::NewProp_MoveSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Pac_Statics::NewProp_BaseMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Pac_Statics::NewProp_CapsuleComp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Pac_Statics::NewProp_MoveSpeed,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABase_Pac_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABase_Pac>::IsAbstract,
@@ -115,7 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeBase_Pac() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABase_Pac, 1013742452);
+	IMPLEMENT_CLASS(ABase_Pac, 612488160);
 	template<> PACMAX_API UClass* StaticClass<ABase_Pac>()
 	{
 		return ABase_Pac::StaticClass();

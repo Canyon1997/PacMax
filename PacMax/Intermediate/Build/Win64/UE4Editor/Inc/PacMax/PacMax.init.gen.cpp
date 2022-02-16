@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodePacMax_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x15E353E3,
+				0xCB22C06D,
 				0xDC7AE257,
 				METADATA_PARAMS(nullptr, 0)
 			};

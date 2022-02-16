@@ -59,9 +59,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABase_Pac); \
 
 
 #define PacMax_Source_PacMax_Pawns_Base_Pac_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__MoveSpeed() { return STRUCT_OFFSET(ABase_Pac, MoveSpeed); } \
 	FORCEINLINE static uint32 __PPO__CapsuleComp() { return STRUCT_OFFSET(ABase_Pac, CapsuleComp); } \
-	FORCEINLINE static uint32 __PPO__BaseMesh() { return STRUCT_OFFSET(ABase_Pac, BaseMesh); } \
-	FORCEINLINE static uint32 __PPO__MoveSpeed() { return STRUCT_OFFSET(ABase_Pac, MoveSpeed); }
+	FORCEINLINE static uint32 __PPO__BaseMesh() { return STRUCT_OFFSET(ABase_Pac, BaseMesh); }
 
 
 #define PacMax_Source_PacMax_Pawns_Base_Pac_h_9_PROLOG

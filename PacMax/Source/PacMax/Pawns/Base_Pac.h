@@ -20,6 +20,9 @@ protected:
 	virtual void BeginPlay() override;
 	virtual void Died();
 
+	UPROPERTY(EditAnywhere)
+		float MoveSpeed = 5.f;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -33,9 +36,6 @@ private:
 		class UCapsuleComponent* CapsuleComp;
 	UPROPERTY(EditAnywhere)
 		class UStaticMeshComponent* BaseMesh;
-
-	UPROPERTY(EditAnywhere)
-		float MoveSpeed = 5.f;
 
 	bool isMoveUp = false;
 	bool isMoveDown = false;

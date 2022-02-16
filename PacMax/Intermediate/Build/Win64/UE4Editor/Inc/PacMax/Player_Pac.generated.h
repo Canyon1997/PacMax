@@ -58,7 +58,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayer_Pac); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlayer_Pac)
 
 
-#define PacMax_Source_PacMax_Pawns_Player_Pac_h_15_PRIVATE_PROPERTY_OFFSET
+#define PacMax_Source_PacMax_Pawns_Player_Pac_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__SpeedModifier() { return STRUCT_OFFSET(APlayer_Pac, SpeedModifier); } \
+	FORCEINLINE static uint32 __PPO__DashTimer() { return STRUCT_OFFSET(APlayer_Pac, DashTimer); }
+
+
 #define PacMax_Source_PacMax_Pawns_Player_Pac_h_12_PROLOG
 #define PacMax_Source_PacMax_Pawns_Player_Pac_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
